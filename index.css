@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body header {
+  padding: 10px;
+  background-color: black;
+}
+body header .nav-items {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+body header .nav-items a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+body header .nav-items .seperate {
+  color: white;
+  font-size: 40px;
+  padding: 5px;
+}
+body main {
+  height: 75vh;
+}
+body main section h1 {
+  color: white;
+  font-size: 48px;
+  position: absolute;
+  right: 20px;
+  z-index: 1;
+}
+body main section .image img {
+  width: 100%;
+  height: 552px;
+}
+body main section .text h2 {
+  color: #BBA53D;
+  background-color: black;
+  position: absolute;
+  font-size: 36px;
+  bottom: 90px;
+  padding: 20px;
+  z-index: 1;
+}
+body footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 24px;
+}
+body footer .social-media a i {
+  color: white;
+  font-size: 24px;
+}
+body footer .info {
+  color: white;
+}
+body footer .info p {
+  margin: 5px 0;
+}
+@media screen and (max-width: 600px) {
+  body img {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+  }
+  body h2 {
+    text-align: center;
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=index.css.map */

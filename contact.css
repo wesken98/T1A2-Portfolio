@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  min-height: 100vh;
+}
+body header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: black;
+  border-bottom: 5px solid #BBA53D;
+}
+body header .nav-items {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+body header .nav-items a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+body header .nav-items .seperate {
+  color: white;
+  font-size: 40px;
+  padding: 5px;
+}
+body main {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body main h2 {
+  text-align: center;
+  color: white;
+  font-size: 36px;
+}
+body main form {
+  padding-left: 40px;
+  color: white;
+  margin-bottom: 40px;
+}
+body main form .form-elements {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 36px;
+}
+body main form .form-elements label {
+  font-size: 1.2rem;
+}
+body main form .form-elements .form-input {
+  border: 1px solid white;
+  border-radius: 4px;
+  outline: none;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+body main form .form-elements .form-input:not(.form-textarea) {
+  height: 32px;
+}
+body main form .form-elements .form-input.form-textarea {
+  resize: none;
+}
+body main form .form-elements .form-input:focus {
+  box-shadow: 0 0 8px 3px white;
+}
+body main form .btn-div {
+  text-align: center;
+}
+body main form .btn-div #submit {
+  height: 40px;
+  min-width: 120px;
+  background-color: gray;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+}
+body main form .btn-div #submit:hover {
+  cursor: pointer;
+  background-color: #BBA53D;
+}
+body footer .social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+body footer .social-media a i {
+  color: white;
+  font-size: 48px;
+  margin: 20px;
+}
+body footer .info {
+  color: white;
+}
+body footer .info p {
+  margin: 5px 0;
+}
+
+@media screen and (min-width: 700px) {
+  main form .form-elements {
+    padding-left: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main form .form-elements .form-input {
+    width: 150%;
+  }
+}/*# sourceMappingURL=contact.css.map */

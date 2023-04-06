@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body header {
+  padding: 10px;
+  background-color: black;
+}
+body header .nav-items {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+body header .nav-items a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+body header .nav-items .seperate {
+  color: white;
+  font-size: 40px;
+  padding: 5px;
+}
+body main {
+  height: 100vh;
+}
+body main section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body main section .blog {
+  color: white;
+  padding: 20px;
+}
+body main section .blog img {
+  width: 300px;
+}
+body main section .blog a {
+  display: block;
+  padding-top: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+body main section .blog h3 {
+  font-size: 15px;
+  color: #BBA53D;
+}
+body footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 24px;
+}
+body footer .social-media a i {
+  color: white;
+  font-size: 24px;
+}
+body footer .info {
+  color: white;
+}
+body footer .info p {
+  margin: 5px 0;
+}
+@media screen and (max-width: 600px) {
+  body img {
+    margin: 0;
+    width: 100px;
+  }
+  body h2 {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=blogs.css.map */

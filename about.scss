@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    min-height: 125vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+header{
+    padding: 10px;
+    background-color: black;
+    
+        .nav-items{
+            font-size: 20px;
+            display: flex;
+            justify-content: flex-end;
+
+            a{
+                color: white;
+                text-decoration: none;
+                padding: 15px;          
+                }
+
+            .seperate{
+                color: white;
+                font-size: 40px;
+                padding: 5px;
+                
+            }
+        }
+    }
+
+// grid for main
+    main{
+        section{
+        display: grid;
+        grid-template-columns: .5fr 3fr 1fr;
+        grid-template-rows: 100px 50px 1fr;
+    
+        margin-bottom: 50px;
+    
+        .text{
+            font-size: 36px;
+            color: white;
+            grid-column: 3;
+            grid-row: 1/-1;
+            text-align: center;
+            padding-right: 20px;
+            padding-left: 20px;
+            background-color: #BBA53D;            ;
+        }
+        .resume{
+            grid-row: 1;
+            grid-column: 2;
+            font-size: 25px;
+            padding: 40px;
+            text-align: end;
+            background-color: #654321;
+            a{
+            color: white;
+            text-decoration: none;
+            }
+        }
+        .image{
+            img{
+            width: 250px;
+            padding: 20px;
+            margin: 30px;
+            border: 2px solid white;
+            }
+        }
+        .text-1{
+            // height: 90vh;
+            // border: 1px solid red;
+            height: 90vh;
+            color: white;
+            margin: 20px;
+            grid-column: 2/3;
+            grid-row: 2/-1;
+            text-align: center;
+            overflow: hidden;
+            padding-right: 20px;
+    
+        }
+    }
+    }
+
+    footer{
+    
+        .social-media{
+         display: flex;
+         justify-content: space-around;
+     
+         margin-bottom: 24px;
+     
+         a{
+     
+             i{
+                 color: white;
+                 font-size: 24px;
+             }
+         }
+        }
+     
+        .info{
+         color: white;
+     
+         p{
+             margin: 5px 0;
+         }
+        }
+     }
+
+
+    @media screen and (max-width: 600px){
+        img{
+            display: none;
+        }
+        .text-1{
+            h2{
+            font-size: 20px
+            }
+        }
+    }
+}
