@@ -1,3 +1,4 @@
+// creates body size and alignment for elements and congruent with all pages
 body{
     margin: 0;
     padding: 0;
@@ -6,12 +7,11 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-
+    
 header{
     padding: 10px;
     background-color: black;
-    
+    // nav element and links to other pages 
         .nav-items{
             font-size: 20px;
             display: flex;
@@ -33,6 +33,7 @@ header{
     }
 
 main{
+    // placent of elements in main
     height: 75vh;
     section{
         h1{
@@ -88,7 +89,7 @@ main{
         }
      }
 
-
+// font alignment in mobile view
     @media screen and (max-width: 600px){
         img{
             margin: 0;
