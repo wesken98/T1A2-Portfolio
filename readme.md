@@ -1,5 +1,14 @@
 # T1A2-Portfolio
 
+## Published Website
+portfoliowkennedy.netlify.app
+
+## GitHub
+https://github.com/wesken98/T1A2-Portfolio.git
+
+## Presentation
+https://vimeo.com/815202002
+
 ## Description
 
 ### Purpose
